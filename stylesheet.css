@@ -1,0 +1,146 @@
+header {
+font-size:4em;
+font-family:cursive;
+stroke:#b37304;
+color:#50FFB1;
+}
+
+h1 {
+color:#50FFB1;
+font-size:4em;
+font-family:segoe script;
+text-align:center;
+}
+
+h2 {
+color:#4FB286;
+padding:1em;
+border:thin solid transparent;
+text-align:center;
+font-size:3em;
+font-family:segoe script;
+}
+
+h3{
+font-size:2.5em;
+text align:center;
+color:#3C896D;
+font-family:segoe script;
+}
+
+ul {
+text-align:justify;
+font-family:segoe script;
+font-size:1em;
+color:#3a6e5b;
+}
+
+li {
+padding:0.5em;
+font-family:segoe script;
+}
+
+body {
+font-family:segoe script;
+text-align:justify;
+background:#17201b;
+padding:1em;
+}
+footer {
+background:000000;
+}
+label {
+color:#3a6e5b;
+font-family:segoe script;
+font-size:1.5em;
+}
+p {
+padding:1em;
+}
+a {
+font-family:segoe script;
+font-size:1.5em;
+color:#3a6e5b;
+}
+code {
+font-family:segoe script;
+}
+#blue {
+color:#1098F7;
+}
+#orange {
+color:#FF6B35;
+}
+#green {
+color:#317B22;
+}
+#yellow {
+color:#F1C40F;
+}
+#black {
+color:#000000;
+}
+#purple {
+color:#8338EC;
+}
+#white {
+color:#FFFFFF;
+}
+figure {
+position:relative;
+margin:0;
+padding:.5em;
+width:100%;
+border:none;
+background:#17201b;
+
+}
+@media (min-width:30em){
+	figure {
+	width:20em;
+	float:center;
+	}
+
+}
+figcaption {
+color:#3a6e5b;
+font-family:segoe script;
+padding: .8em;
+text-align:center;
+}
+button {
+color:#3a6e5b;
+background:#17201b;
+border:
+}
+#gallery1 {
+display:grid;
+grid-template-columns:repeat(auto-fill, minmax(15em, 1fr));
+gap:1em;
+}
+#gallery1 > figcaption {
+grid-column:1/-1;
+}
+#gallery1 > figure{
+position:relative;
+}
+figure img {
+width: 100%;
+display: block;
+}
+#gallery1 > figure > figcaption {
+postion:absolute;
+bottom:0;
+width:100%;
+line-height:3em;
+color:white;
+background:rgb(0 0 0 / .3);
+}
+#gallery1 > figure > figcaption {
+opacity:0;
+bottom:-3em;
+transition: all 1s ease;
+}
+#gallery1 > figure:hover > figcaption {
+
+}
